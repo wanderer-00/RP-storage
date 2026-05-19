@@ -1,4 +1,6 @@
 :root {
+    --btn-bg: rgb(200, 229, 255);
+
     box-sizing: border-box;
 }
 
@@ -12,10 +14,60 @@ body {
     font-family: monospace;
 }
 
-header {
-    display: block;
+/* header {
+    width: 60%;
     margin: auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border-radius: 4px;
+    border: 1px solid gray;
+
+
+    & > div > button {
+        padding: 0;
+        border: none;
+        height: 100%;
+        width: auto;
+        aspect-ratio: 1;
+        border-right: 1px solid gray;
+        padding-right: 6px;
+        background: none;
+        padding: .4rem .4rem .4rem 0;
+
+        &:last-child {
+            border-right: 0px solid gray;
+            padding-right: 0px;
+        }
+    }
+
+    & > div > button > svg {
+        stroke: black;
+        stroke-width: 6px;
+        fill: none;
+        width: auto;
+        height: 2rem;
+        aspect-ratio: 1;
+    }
+
+    & > a {
+        padding: .3rem .4rem;
+
+        &:hover {
+            background-color:rgb(195, 217, 236);
+        }
+
+        & > svg {
+            fill: black;
+            width: auto;
+            height: 2rem;
+            aspect-ratio: 1;
+        }
+    }
 }
+
+.active > svg {
+    stroke: orangered;
+} */
 
 #cluster {
     display: flex;
@@ -37,6 +89,10 @@ header {
 .card h2,
 .card p {
     margin: 10px 0;
+}
+
+.card p {
+    color: gray;
 }
 
 .image {

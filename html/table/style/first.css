@@ -20,7 +20,6 @@ body {
 table {
     border-spacing: 1rem 0;
     border-collapse: separate;
-/*    border-collapse: collapse;*/
 }
 
 caption {
@@ -33,6 +32,11 @@ table td {
 
 table tr {
     white-space: nowrap;
+
+    &:hover {
+        cursor: pointer;
+        background-color: lightblue;
+    }
 }
 thead tr:nth-child(2) th,
 thead tr:nth-child(3) th{
