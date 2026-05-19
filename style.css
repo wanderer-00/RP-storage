@@ -1,73 +1,72 @@
 :root {
     --btn-bg: rgb(200, 229, 255);
+    --active: orangered;
 
     box-sizing: border-box;
 }
 
 body {
+    margin: 0;
     min-height: 100vh;
     display: grid;
-    gap: 1rem;
+    gap: 2rem;
     grid-template-rows: auto 1fr auto;
     color: #121212;
     background-color: #ebedf5;
     font-family: monospace;
 }
 
-/* header {
-    width: 60%;
-    margin: auto;
+header {
+    --size: 32px;
+
     display: grid;
+    padding: 1rem;
     grid-template-columns: 1fr auto;
-    border-radius: 4px;
-    border: 1px solid gray;
 
+    & > div {
 
-    & > div > button {
-        padding: 0;
-        border: none;
-        height: 100%;
-        width: auto;
-        aspect-ratio: 1;
-        border-right: 1px solid gray;
-        padding-right: 6px;
-        background: none;
-        padding: .4rem .4rem .4rem 0;
+        & > button {
+            padding: .5rem;
+            border: none;
 
-        &:last-child {
-            border-right: 0px solid gray;
-            padding-right: 0px;
+            & > svg {
+                stroke: black;
+                stroke-width: 4px;
+                fill: transparent;
+                width: auto;
+                height: var(--size);
+                aspect-ratio: 1;
+            }
         }
-    }
-
-    & > div > button > svg {
-        stroke: black;
-        stroke-width: 6px;
-        fill: none;
-        width: auto;
-        height: 2rem;
-        aspect-ratio: 1;
     }
 
     & > a {
-        padding: .3rem .4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        aspect-ratio: 1;
 
-        &:hover {
-            background-color:rgb(195, 217, 236);
-        }
-
-        & > svg {
-            fill: black;
+        & svg {
             width: auto;
-            height: 2rem;
+            height: 40px;
             aspect-ratio: 1;
         }
     }
 }
 
+.btn {
+    border-radius: 4px;
+    background-color: #e2e2f7;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #d9d9f3;
+    }
+}
+
 .active > svg {
     stroke: orangered;
-} */
+}
 
 #cluster {
     display: flex;
@@ -131,6 +130,7 @@ body {
 @media (orientation: portrait){
     body {
         padding: .4rem;
+        gap: 0rem;
     }
     #cluster {
         margin: 1rem 0;
