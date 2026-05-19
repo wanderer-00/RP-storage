@@ -19,7 +19,7 @@ body {
     display: grid;
     gap: .4rem;
     padding: 1rem 0;
-    max-width: 230px;
+    width: 230px;
     border-radius: 1rem;
     box-shadow: 0px 2px 10px 6px rgba(34, 60, 80, 0.12);
 }
