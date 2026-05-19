@@ -1,0 +1,45 @@
+:root {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'UbuntuMono'; /* Имя, которое вы будете использовать в HTML */
+    src: url('../../font/UbuntuMono-Regular.ttf') format('ttf');
+    font-weight: normal; /* Начертание шрифта */
+    font-style: normal; /* Стиль шрифта */
+}
+
+body {
+    margin: 0;
+    min-height: 100vh ;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    font-family: 'UbuntuMono', monospace;
+}
+
+table {
+    border-spacing: 1rem 0;
+    border-collapse: separate;
+/*    border-collapse: collapse;*/
+}
+
+caption {
+    text-align: left;
+}
+
+table td {
+    color: #444;
+}
+
+table tr {
+    white-space: nowrap;
+}
+thead tr:nth-child(2) th,
+thead tr:nth-child(3) th{
+    border-bottom: 1px solid #DDD;
+}
+
+thead tr:nth-child(2) th {
+    text-align: left;
+    color: gray;
+}

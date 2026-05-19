@@ -3,9 +3,18 @@
 }
 
 body {
+    min-height: 100vh;
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: auto 1fr auto;
     color: #121212;
     background-color: #ebedf5;
     font-family: monospace;
+}
+
+header {
+    display: block;
+    margin: auto;
 }
 
 #cluster {
@@ -16,12 +25,18 @@ body {
 }
 
 .card {
+    text-align: center;
     display: grid;
     gap: .4rem;
     padding: 1rem 0;
     width: 230px;
     border-radius: 1rem;
     box-shadow: 0px 2px 10px 6px rgba(34, 60, 80, 0.12);
+}
+
+.card h2,
+.card p {
+    margin: 10px 0;
 }
 
 .image {

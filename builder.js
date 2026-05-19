@@ -4,6 +4,10 @@ function builder(data, type){
     for( t=0; t<data.length; t++ ){
         cluster.innerHTML += `
             <div class="card">
+                <div>
+                    <h2>${data[t].NAME}</h2>
+                    <p>${data[t].NOTE}</p>
+                </div>
                 <div class="image" style="background-image: url('img/${type}/${data[t].COLOR}.png')"></div>
                 <div class="size-table">
                     ${size(data)}

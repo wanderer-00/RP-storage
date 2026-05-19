@@ -2,16 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentation</title>
+    <title>Table</title>
+    <!-- global -->
+    <link rel="stylesheet" href="../../css/main.css">
+    <!-- local -->
+    <link rel="stylesheet" href="style/first.css">
 </head>
 <body>
-    <header></header>
     <main>
-        <table>
-            
-        </table>
+        <div class="wrapper">
+            <table id="firstTable" align="center" cellpadding="6">
+                <caption>Обновлено 19.05.2026 17:42</caption>
+                <thead id="firstTable_head">
+                    <tr>
+                        <th align="left">Изделие</th>
+                        <th align="right">Изменение</th>
+                        <th align="right">-</th>
+                        <th align="right">-</th>
+                        <th align="right">-</th>
+                        <th align="right">-</th>
+                        <th align="left">Дата</th>
+                    </tr>
+                    <tr>
+                        <th align="left"></th>
+                        <th align="right">₽</th>
+                        <th align="right">%</th>
+                        <th align="right">%</th>
+                        <th align="right"></th>
+                        <th align="right">BPS</th>
+                        <th align="left"></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
     </main>
-    <footer></footer>
+
+    <footer>
+        <h3>Дизайн сложных таблиц</h3>
+        <a href="https://awdee.ru/complex-tables-design/">Источник</a>
+    </footer>
 </body>
+
+<!-- data base -->
+<script src="data/first.js"></script>
+<!-- ms ==> date -->
+<script src="script/dateConverter.js"></script>
+<!-- data insertion -->
+<script src="script/first.js"></script>
+
 </html>
