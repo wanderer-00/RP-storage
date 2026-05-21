@@ -9,16 +9,28 @@
 <body>
     <header>
         <div>
-            <button class="btn active">
+            <button class="btn active" onclick="builderAll(this)">
+                <svg>
+                    <style>
+                        .all-text {
+                            font: 100 20px sans-serif;
+                            stroke-width: 1;
+                            fill: black;
+                        }
+                    </style>
+                    <text x="4" y="24" class="all-text">All</text>
+                </svg>
+            </button>
+            <button class="btn" onclick="initiation(this, tshirt, 'tshirt')">
                 <svg><use xlink:href="#tshirt"></use></svg>
             </button>
-            <button class="btn">
+            <button class="btn" onclick="initiation(this, longsleeve, 'longsleeve')">
                 <svg><use xlink:href="#hoodie"></use></svg>
             </button>
-            <button class="btn">
+            <button class="btn" onclick="initiation(this, cap, 'cap')">
                 <svg><use xlink:href="#cap"></use></svg>
             </button>
-            <button class="btn">
+            <button class="btn" onclick="initiation(this, shopper, 'shopper')">
                 <svg><use xlink:href="#shopper"></use></svg>
             </button>
         </div>

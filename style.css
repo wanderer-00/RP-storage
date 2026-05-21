@@ -127,6 +127,10 @@ header {
     }
 }
 
+.all-text {
+    font: bold 20px sans-serif;
+}
+
 @media (orientation: portrait){
     body {
         padding: .4rem;
