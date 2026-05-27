@@ -2,14 +2,14 @@ const tshirt = [
     {
         "NAME": "Premium",
         "COLOR": "white",
-        "COUNT":    [36,    140,    153,    150,    150,    20],
+        "COUNT":    [36,    140,    153,    150,    149,    20],
         "SIZE":     ["XS",  "S",    "M",    "L",    "XL",   "XXL"],
         "NOTE": "хлопок 100%",
     },
     {
         "NAME": "Premium",
         "COLOR": "black",
-        "COUNT":    [50,    59,     50,     60,     20],
+        "COUNT":    [50,    59,     50,     59,     20],
         "SIZE":     ["S",   "M",    "L",    "XL",   "XXL"],
         "NOTE": "хлопок 100%",
     },
