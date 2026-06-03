@@ -37,7 +37,7 @@ const tshirt = [
     {
         "NAME": "Melange Graphite",
         "COLOR": "darkgray",
-        "COUNT":    [31,    30,     30],
+        "COUNT":    [12,    11,     16],
         "SIZE":     ["M",   "L",    "XL"],
         "NOTE": "хлопок 100%",
     },
