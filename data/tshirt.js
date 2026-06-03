@@ -2,24 +2,24 @@ const tshirt = [
     {
         "NAME": "Premium",
         "COLOR": "white",
-        "COUNT":    [36,    136,    148,    147,    145,    20],
+        "COUNT":    [36,    62,     14,     3,      80,     20],
         "SIZE":     ["XS",  "S",    "M",    "L",    "XL",   "XXL"],
         "NOTE": "хлопок 100%",
     },
     {
         "NAME": "Premium",
         "COLOR": "black",
-        "COUNT":    [45,    53,     47,     56,     20],
+        "COUNT":    [10,    8,      9,      15,     20],
         "SIZE":     ["S",   "M",    "L",    "XL",   "XXL"],
         "NOTE": "хлопок 100%",
     },
-    {
-        "NAME": "Premium Melange",
-        "COLOR": "gray",
-        "COUNT":    [27,    27,     27],
-        "SIZE":     ["M",   "L",    "XL"],
-        "NOTE": "хлопок 100%",
-    },
+    // {
+    //     "NAME": "Premium Melange",
+    //     "COLOR": "gray",
+    //     "COUNT":    [0,    0,     0],
+    //     "SIZE":     ["M",   "L",    "XL"],
+    //     "NOTE": "хлопок 100%",
+    // },
     {
         "NAME": "Melange",
         "COLOR": "darkgreen",
