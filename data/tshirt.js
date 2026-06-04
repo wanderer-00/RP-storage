@@ -13,6 +13,13 @@ const tshirt = [
         "SIZE":     ["S",   "M",    "L",    "XL",   "XXL"],
         "NOTE": "хлопок 100%",
     },
+    {
+        "NAME": "Melange Graphite",
+        "COLOR": "darkgray",
+        "COUNT":    [12,    11,     16],
+        "SIZE":     ["M",   "L",    "XL"],
+        "NOTE": "хлопок 100%",
+    },
     // {
     //     "NAME": "Premium Melange",
     //     "COLOR": "gray",
@@ -22,23 +29,16 @@ const tshirt = [
     // },
     {
         "NAME": "Melange",
-        "COLOR": "darkgreen",
-        "COUNT":    [10,    10],
-        "SIZE":     ["M",   "L"],
-        "NOTE": "хлопок 100%",
-    },
-    {
-        "NAME": "Melange",
         "COLOR": "darkblue",
         "COUNT":    [40,    50,     40,     40],
         "SIZE":     ["S",   "M",    "L",    "XL"],
         "NOTE": "хлопок 100%",
     },
     {
-        "NAME": "Melange Graphite",
-        "COLOR": "darkgray",
-        "COUNT":    [12,    11,     16],
-        "SIZE":     ["M",   "L",    "XL"],
+        "NAME": "Melange",
+        "COLOR": "darkgreen",
+        "COUNT":    [10,    10],
+        "SIZE":     ["M",   "L"],
         "NOTE": "хлопок 100%",
     },
     {
@@ -50,9 +50,9 @@ const tshirt = [
     },
     {
         "NAME": "Elastane",
-        "COLOR": "darkblue",
-        "COUNT":    [22,    25],
-        "SIZE":     ["S",   "M"],
+        "COLOR": "white",
+        "COUNT":    [60,    64,     60],
+        "SIZE":     ["M",   "L",    "XL"],
         "NOTE": "хлопок 92% эластан 8%",
     },
     {
@@ -64,9 +64,9 @@ const tshirt = [
     },
     {
         "NAME": "Elastane",
-        "COLOR": "white",
-        "COUNT":    [60,    64,     60],
-        "SIZE":     ["M",   "L",    "XL"],
+        "COLOR": "darkblue",
+        "COUNT":    [22,    25],
+        "SIZE":     ["S",   "M"],
         "NOTE": "хлопок 92% эластан 8%",
     },
 ];
