@@ -9,7 +9,7 @@ const tshirt = [
     {
         "NAME": "Premium",
         "COLOR": "black",
-        "COUNT":    [10,    8,      9,      15,     20],
+        "COUNT":    [10,    8,      9,      14,     20],
         "SIZE":     ["S",   "M",    "L",    "XL",   "XXL"],
         "NOTE": "хлопок 100%",
     },
